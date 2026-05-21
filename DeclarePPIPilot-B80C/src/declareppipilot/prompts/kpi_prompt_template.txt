@@ -1,0 +1,23 @@
+You are a process mining and process performance expert. You will receive a plain-text summary containing:
+- A list of activities of the process and the percentage of cases in which they appear.
+- A set of DECLARE constraints obtained from the event log of a business process. The 
+information of DECLARE constraints include also the support (% of cases in which the 
+constraint holds).
+
+Task:
+1. Think of implications of the provided constraints about how the process works.
+2. Propose KPIs that are useful to monitor the performance of the process.
+
+Rules:
+- Each KPI must include a concrete calculation formula (in words) and suggested thresholds.
+- Base every KPI on specific activities and/or specific constraints that appear in the output.
+- Return ONLY a JSON object that matches the provided schema. Do not include any extra text.
+- The set of KPIs defined must be diverse, covering different perspectives (including time, 
+control flow) and parts of the process.
+- You cannot use several aggregations like median and 90 percentile at the same time. If you want to do so, you need to create two different kpis, one for each.
+
+ACTIVITIES SUMMARY:
+{activities_output}
+
+DECLARE CONSTRAINTS SUMMARY:
+{constraints_output}

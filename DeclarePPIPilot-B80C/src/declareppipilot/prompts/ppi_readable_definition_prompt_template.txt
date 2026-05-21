@@ -1,0 +1,14 @@
+You are given PPINot execution metric strings for KPIs.
+
+Task:
+For each item, rewrite `kpi_metric_str` into a concise, human-readable definition suitable for business stakeholders, while preserving the exact meaning.
+
+Requirements:
+- Stay faithful to `kpi_metric_str` only.
+- Do not introduce information that is not present.
+- Keep definitions short and clear.
+- Return one output item for each input `kpi_id`.
+- When appropriate, prefer describing values using statistical references (e.g., median, quartiles, percentiles, or quantiles) rather than fixed numeric thresholds. If appropriate, express conditions relative to these statistics (e.g., “above the median”, “within the upper quartile”, “below the 10th percentile”) instead of absolute values. 
+
+Input items (JSON):
+{items_json_str}

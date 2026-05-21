@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PPIDeclarePilot Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="bg-shape bg-shape-a"></div>
+  <div class="bg-shape bg-shape-b"></div>
+
+  <main class="container">
+    <header class="hero">
+      <h1>PPIDeclarePilot Dashboard</h1>
+      <p>Upload an event log and generate KPI + PPI insights.</p>
+    </header>
+
+    <section class="panel">
+      <form id="run-form" class="form-grid">
+        <label>
+          Event Log (.xes)
+          <input type="file" name="event_log_file" accept=".xes" required />
+        </label>
+
+        <label>
+          Provider
+          <select name="provider" required>
+            <option value="openai">OpenAI</option>
+            <option value="anthropic">Anthropic</option>
+            <option value="lmstudio">Local (LM Studio)</option>
+          </select>
+        </label>
+
+        <label>
+          Model
+          <input type="text" name="model" placeholder="e.g. gpt-5.2" required />
+        </label>
+
+        <label>
+          Base URL (optional)
+          <input type="text" name="base_url" placeholder="http://localhost:1234/v1" />
+        </label>
+
+        <label>
+          API Key (optional)
+          <input type="password" name="api_key" placeholder="Only for this run" />
+        </label>
+
+        <label>
+          Min Support (optional)
+          <input type="number" name="min_support" step="0.01" min="0" max="1" placeholder="0.8" />
+        </label>
+
+        <p class="hint full-row">
+          <strong>Min Support (plain meaning):</strong> how often a behavior must appear in cases to be considered relevant.
+          Higher values focus on frequent/consistent patterns; lower values include rarer ones.
+        </p>
+
+        <div class="period-box full-row">
+          <label class="checkbox-row">
+            <input type="checkbox" name="period_enabled" id="period_enabled" />
+            Use time period grouping
+          </label>
+          <div class="period-controls" id="period_controls">
+            <label>
+              Quantity
+              <input type="number" name="period_quantity" min="1" value="1" />
+            </label>
+            <label>
+              Unit
+              <select name="period_unit">
+                <option value="week">Week(s)</option>
+                <option value="month" selected>Month(s)</option>
+                <option value="year">Year(s)</option>
+              </select>
+            </label>
+            <label>
+              CV Threshold (optional)
+              <input type="number" name="cv_threshold" step="0.01" min="0" placeholder="0.2" />
+            </label>
+          </div>
+        </div>
+
+        <label class="checkbox-row full-row">
+          <input type="checkbox" name="use_attributes" />
+          Use event attributes during KPI generation
+        </label>
+
+        <button type="submit" id="run-btn">Run Pipeline</button>
+      </form>
+    </section>
+
+    <section id="status" class="status hidden"></section>
+
+    <section id="summary" class="panel hidden">
+      <h2>Run Summary</h2>
+      <div id="summary-chips" class="chips"></div>
+    </section>
+
+    <section id="filters" class="panel hidden">
+      <h2>Dashboard Filters</h2>
+      <div class="filters-row">
+        <label class="checkbox-row">
+          <input type="checkbox" id="hide_low_cv" />
+          Hide KPIs below CV threshold
+        </label>
+        <label class="checkbox-row">
+          <input type="checkbox" id="debug_mode" />
+          Debug mode (show failed/uncomputed KPIs)
+        </label>
+        <label>
+          Sort KPIs by
+          <select id="sort_kpis">
+            <option value="id_asc">KPI ID (A-Z)</option>
+            <option value="id_desc">KPI ID (Z-A)</option>
+            <option value="cv_desc">CV (high to low)</option>
+            <option value="cv_asc">CV (low to high)</option>
+            <option value="status">Status</option>
+          </select>
+        </label>
+        <label>
+          Chart style
+          <select id="chart_type">
+            <option value="line">Line</option>
+            <option value="bar">Bar</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section id="results" class="results"></section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

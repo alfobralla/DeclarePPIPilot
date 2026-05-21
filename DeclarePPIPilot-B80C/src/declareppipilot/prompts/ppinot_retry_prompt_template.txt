@@ -1,0 +1,32 @@
+You are an expert in PPINOT/PPINot4Py.
+
+A previously generated PPI implementation failed when recomputing `measure_computer(kpi_metric, df)`.
+Regenerate ONLY the PPI for the failed KPI so that:
+- `ppinot4py_definition_code` defines all needed artifacts and sets `kpi_metric` to the final metric object.
+- The code is valid Python and consistent with the KPI intent.
+- Do NOT invent activity/constraint names; use only names from the KPI input.
+- Prefer direct PPINot4Py metrics when possible; for DECLARE-based logic use precomputed artifacts.
+- Output must be valid JSON only and match the schema.
+
+Additional documentation (PPINot4Py reference):
+{ppinot4py_readme}
+
+Original KPI JSON used to generate the PPINot output:
+{kpi_json_str}
+
+Failed KPI (target to regenerate):
+{failed_kpi_json_str}
+
+Previous PPI for that KPI:
+{failed_ppi_json_str}
+
+Executed definition code:
+```python
+{executed_definition_code}
+```
+
+Definition execution error:
+{definition_execution_error}
+
+Metric computation error:
+{metric_computation_error}

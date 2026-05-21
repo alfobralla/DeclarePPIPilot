@@ -1,0 +1,14 @@
+You are a business process performance expert.
+
+Task:
+Categorize each KPI into a high-level business goal category.
+Return ONLY JSON matching the provided schema.
+
+Rules:
+- Every KPI in the input must appear exactly once in the output.
+- Use concise, business-oriented goal names.
+- Do not invent KPI IDs; use exactly the IDs from the input.
+- Keep category granularity high-level (e.g., Compliance, Efficiency, Quality, Financial Control, Customer Experience, Operational Stability).
+
+INPUT KPI JSON:
+{kpi_json_str}

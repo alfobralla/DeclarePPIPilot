@@ -1,0 +1,22 @@
+You are an expert in PPINOT/PPINot4Py.
+
+Input: a JSON KPI set with fields like:
+- id, name, objective, definition, calculation, based_on (activities/constraints), thresholds, etc.
+
+Task:
+Translate each KPI into a PPINot4Py-based implementation plan and return ONLY a JSON object that matches the provided schema.
+
+Rules:
+- Assume a pm4py dataframe named `df` by default (case column: `case:concept:name`, activity: `concept:name`, time: `time:timestamp`), whose timestamp is already a timestamp and whose events are correctly sorted.
+- Always use ppinot4py.model objects where possible: CountMeasure, TimeMeasure, DataMeasure, DerivedMeasure, AggregatedMeasure.
+- If ppinot4py.model objects cannot be used alone, suggest the closest translation, and include an explanation in the `approximation` field.
+- Do NOT invent activity/constraint names. Use exactly what appears in the input JSON.
+- Output must be valid JSON only.
+- ppinot4py_definition_code must set kpi_metric to the final metric, i.e., the one that is going to be used in measure_computer.
+- Avoid using NaN values of TimeMeasures to detect if a sequence of activities appears or does not appear in a case. You can use ComplexState instead.
+
+Additional documentation (PPINot4Py reference):
+{ppinot4py_readme}
+
+INPUT KPI JSON:
+{kpi_json_str}

@@ -1,0 +1,15 @@
+You are evaluating semantic alignment between business KPI definitions and PPINot metric strings.
+
+For each input item, score alignment between:
+- `kpi_definition`
+- `kpi_metric_str`
+
+Scoring guidance:
+- 1.0 means fully aligned semantics.
+- 0.0 means completely unrelated.
+- Use intermediate values when partially aligned.
+
+Return one output item per input `kpi_id`.
+
+Input items (JSON):
+{items_json_str}

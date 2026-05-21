@@ -1,0 +1,15 @@
+# Core
+pandas
+pydantic>=2
+fastapi
+uvicorn
+python-multipart
+
+# Process mining / logs
+Declare4Py
+pm4py
+ppinot4py
+
+# LLM providers
+openai
+anthropic

@@ -1,0 +1,3766 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="59809943a19594b3fdb60573" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:07:47.735000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:48:03.988000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:18.868000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="2" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:43.759000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:13.162000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:53.107000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809957291dda7ea8e06b05" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:08:07.202000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="6" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:24.158000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-04T03:30:55.129000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:31:55.554000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:17.697000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="10" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5980995ea4203f448b175db9" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:08:14.300000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:32.855000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:45:05.333000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:08.673000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:43.880000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="15" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:14.135000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:53.371000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099650c4fd47dbb63dfd0" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:08:21.409000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:34.613000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="19" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:36:21.502000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:31:58.928000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="21" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:21.447000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="22" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5980996d291dda7ea8e06dd2" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:08:29.101000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="23" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:34.527000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="24" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:39.041000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="25" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:47:34.351000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="26" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:19.074000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="27" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:53.432000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="28" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809984ba5cdab22133e41d" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:08:52.437000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Firmware Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="29" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:21:12.605000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="Firmware Bugs" />
+			<int key="@@index" value="30" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:19.079000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="31" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-05T07:39:34.063000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:31:57.721000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:18.969000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099882433a75cb23e7af5" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:08:56.978000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="35" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099928ca6f914269c7705" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:09:06.092000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:46:01.487000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:13.805000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:41.100000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="39" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-14T07:03:20.635000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="40" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-24T08:15:05.386000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="41" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-04-05T09:15:46.305000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="after" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="42" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5980999829b9a50165f50822" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:09:12.939000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="43" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:53.312000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="44" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:45:07.895000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="45" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:31.126000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="46" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:42.231000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="47" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:11.951000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="48" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:53.072000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="49" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099a318b3047e3753f17d" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:09:23.879000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="50" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:20:56.710000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Firmware Bugs" />
+			<string key="after" value="Firmware Bugs" />
+			<string key="before" value="Wootility Bugs" />
+			<int key="@@index" value="51" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:21:15.406000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="Firmware Bugs" />
+			<int key="@@index" value="52" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:25:00.567000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="53" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-01T07:58:46.423000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="54" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-06T14:29:04.013000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="55" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-16T10:23:13.449000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<string key="after" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="56" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099aa365432bf8ebfe003" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:09:30.276000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="57" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:34:47.619000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="58" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-04T06:58:04.698000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="59" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:31:56.753000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="60" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:17.698000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="61" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099c7a7b9c8b253ea22e0" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:09:59.610000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="62" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099d10724c1c659af9652" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:10:09.843000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="63" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-31T09:28:26.148000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="64" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:22:58.286000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="65" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:11.731000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="66" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-08-29T03:09:50.197000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features under consideration (discussion welcome)" />
+			<string key="after" value="Features under consideration (discussion welcome)" />
+			<string key="before" value="Planned Features" />
+			<int key="@@index" value="67" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099e33cbf0c2cf0b23db7" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:10:27.259000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="68" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:50:28.228000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="Under consideration (discussion welcome)" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="69" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-05T09:23:16.126000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="70" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099edd8c1ffcedca56578" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:10:38.003000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="71" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:32.837000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="72" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-22T07:03:07.226000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-22T08:34:52.811000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="74" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:52.680000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099f9c29c38bf38a4a96f" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:10:49.513000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Firmware Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="76" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:21:22.968000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="Wootility Features" />
+			<string key="before" value="Firmware Features" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:35:42.453000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:44:54.412000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="79" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:23.024000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="80" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:46.017000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="81" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:16.820000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:52.693000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598099fd7dd60c9df8bb5c06" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:10:53.211000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Firmware Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="84" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:21:24.816000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="Wootility Features" />
+			<string key="before" value="Firmware Features" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-31T09:28:23.376000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="86" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:22:57.110000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:09.796000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="88" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-14T07:03:13.690000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="89" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-24T08:15:02.650000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="90" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-04-05T09:15:43.475000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="after" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="91" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809a1e6290a24c8b5d1623" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:11:26.140000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="92" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:32:03.470000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="93" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:18:29.973000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="94" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-17T07:34:42.737000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="95" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-26T07:13:18.105000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.0.3 Firmware V1.11" />
+			<string key="after" value="Release Wootility v2.0.3 Firmware V1.11" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="96" />
+			<int key="@@case_index" value="17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809b7fce710eaa444b019d" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:17:19.671000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="97" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:28:12.582000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="Under consideration (discussion welcome)" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="98" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-11T12:46:23.255000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="99" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-12-19T16:04:40.094000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.1.0" />
+			<string key="after" value="Release Wootility v2.1.0" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="100" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-12-19T16:04:41.578000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="Release Wootility v2.1.0" />
+			<int key="@@index" value="101" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-07-19T11:40:16.080000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="after" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="102" />
+			<int key="@@case_index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809c7c3a8b2a4c3aca6738" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:21:32.610000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="103" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:35:31.505000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="104" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-04T07:41:44.766000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="105" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:32:03.102000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="106" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:23.148000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="107" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809c7f87e0314be7976415" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:21:35.971000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="108" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:35:37.193000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="109" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T08:16:04.612000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="110" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:32:00.218000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="111" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:20.386000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="112" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809c85db57bd93cfc73799" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:21:41.689000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="113" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:37:31.303000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="114" />
+			<int key="@@case_index" value="21" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:55:01.881000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="after" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="115" />
+			<int key="@@case_index" value="21" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59809c8e8af1e60c3bc437d4" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T15:21:50.885000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Firmware Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="116" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-02T08:21:25.687000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Wootility Features" />
+			<string key="after" value="Wootility Features" />
+			<string key="before" value="Firmware Features" />
+			<int key="@@index" value="117" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:50:35.534000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="Under consideration (discussion welcome)" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="118" />
+			<int key="@@case_index" value="22" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-05-20T08:24:42.906000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="119" />
+			<int key="@@case_index" value="22" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5980aef9c28ece54087cb510" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-01T16:40:25.440000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Submit bug/feature" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="120" />
+			<int key="@@case_index" value="23" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981908268c1fadbb0a52a8e" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T08:42:42.331000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="121" />
+			<int key="@@case_index" value="24" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T08:24:27.604000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="122" />
+			<int key="@@case_index" value="24" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981912cc9902c298e33a2e9" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T08:45:32.227000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Submit bug/feature" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="123" />
+			<int key="@@case_index" value="25" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59819cee2a0971d91f922b9f" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T09:35:42.672000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="124" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:51:19.761000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="125" />
+			<int key="@@case_index" value="26" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-08-29T03:10:02.167000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features under consideration (discussion welcome)" />
+			<string key="after" value="Features under consideration (discussion welcome)" />
+			<string key="before" value="Planned Features" />
+			<int key="@@index" value="126" />
+			<int key="@@case_index" value="26" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981ea0b3e390705661eed64" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T15:04:43.810000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="127" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-03T07:46:28.485000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="128" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:28:00.541000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="129" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T14:32:04.748000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="130" />
+			<int key="@@case_index" value="27" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:30:25.016000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Released v1.0.5" />
+			<string key="after" value="Released v1.0.5" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="131" />
+			<int key="@@case_index" value="27" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981ea18732e3a413299a90e" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T15:04:56.640000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="132" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-08-29T02:32:24.880000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="133" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2020-04-29T07:40:28.403000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Planned Features" />
+			<int key="@@index" value="134" />
+			<int key="@@case_index" value="28" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:27:44.520000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="135" />
+			<int key="@@case_index" value="28" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981ea263ccb9f3ad1a05e8b" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T15:05:10.048000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="136" />
+			<int key="@@case_index" value="29" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:52:04.226000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="137" />
+			<int key="@@case_index" value="29" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981ea3f30afd06ac64758b1" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T15:05:35.285000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="138" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:52:28.847000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="139" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:16:59.984000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="140" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:00.446000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="141" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:17.371000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="142" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:27:36.725000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="143" />
+			<int key="@@case_index" value="30" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:28:45.363000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="144" />
+			<int key="@@case_index" value="30" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5981ea4bea0510318cbcf1c5" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-02T15:05:47.367000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="145" />
+			<int key="@@case_index" value="31" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5983eacb5c7a700497be8ef7" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-04T03:32:27.914000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="146" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:52:49.496000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="147" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:19:25.328000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="148" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:21.762000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="149" />
+			<int key="@@case_index" value="32" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:14:49.065000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.5.0 Firmware V1.20" />
+			<string key="after" value="Release Wootility v2.5.0 Firmware V1.20" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="150" />
+			<int key="@@case_index" value="32" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5983eb2d08763dd4190112ae" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-04T03:34:05.171000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="151" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-06T08:24:20.969000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="152" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-13T08:31:59.175000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="153" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:16:17.724000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="154" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-23T15:52:11.327000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="155" />
+			<int key="@@case_index" value="33" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-26T07:13:19.390000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.0.3 Firmware V1.11" />
+			<string key="after" value="Release Wootility v2.0.3 Firmware V1.11" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="156" />
+			<int key="@@case_index" value="33" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598424cab4c184151f84c1d7" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-04T07:39:54.621000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="157" />
+			<int key="@@case_index" value="34" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2020-04-29T07:42:16.864000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="Features under consideration (discussion welcome)" />
+			<int key="@@index" value="158" />
+			<int key="@@case_index" value="34" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5986e62ecdadb58db16fc6ca" />
+		<event>
+			<string key="org:resource" value="54d5edd95b0741a8c123b819" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-06T09:49:34.360000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="159" />
+			<int key="@@case_index" value="35" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-08-29T02:33:43.453000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="160" />
+			<int key="@@case_index" value="35" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="598727cb5c49c987d8a51b09" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-06T14:29:31.895000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Submit bug/feature" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="161" />
+			<int key="@@case_index" value="36" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:48:00.583000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="162" />
+			<int key="@@case_index" value="36" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="599037389425fef6b685aa71" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-13T11:25:44.540000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="163" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:50:08.953000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="164" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:25.184000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="165" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:20:46.817000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="166" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:15.452000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="167" />
+			<int key="@@case_index" value="37" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-12T08:15:52.685000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="after" value="Release Wootility v1.0.6 Firmware V1.10" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="168" />
+			<int key="@@case_index" value="37" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59904888e20abb229e3eff0a" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-13T12:39:36.821000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="169" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:50:51.043000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="170" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:09.529000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="171" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:16:49.581000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="172" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-15T12:45:35.765000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="173" />
+			<int key="@@case_index" value="38" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-15T12:45:40.444000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.8" />
+			<string key="after" value="Release Wootility v1.0.8" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="174" />
+			<int key="@@case_index" value="38" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="599153a53ebf8aca5b00ecd1" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-14T07:39:17.551000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="175" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:53:32.547000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="176" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:19:06.615000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="177" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:24.041000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="178" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2020-04-29T07:40:33.413000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Planned Features" />
+			<int key="@@index" value="179" />
+			<int key="@@case_index" value="39" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:27:46.293000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="180" />
+			<int key="@@case_index" value="39" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5996bf2f042c8675a550f1b4" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-18T10:19:27.400000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="181" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:17:10.144000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="182" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-17T07:45:28.104000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="183" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-23T16:24:58.909000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="184" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:03.466000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="185" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:05.678000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="186" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:24:27.860000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="187" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-01T07:58:44.650000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="188" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-06T14:29:02.865000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="189" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-16T10:23:08.384000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<string key="after" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="190" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-24T08:15:13.822000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<int key="@@index" value="191" />
+			<int key="@@case_index" value="40" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-04-05T09:15:49.365000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="after" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="192" />
+			<int key="@@case_index" value="40" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59a7c6b27f3a38095d7eca2d" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-31T08:20:02.559000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="193" />
+			<int key="@@case_index" value="41" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:38:17.631000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.0.x" />
+			<string key="after" value="Release Wootility v3.0.x" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="194" />
+			<int key="@@case_index" value="41" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59a7c79ab891b209a41ae432" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-31T08:23:54.473000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="195" />
+			<int key="@@case_index" value="42" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59a7c82366df4f17d6bced68" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-31T08:26:11.236000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="196" />
+			<int key="@@case_index" value="43" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59a7c89c557c9b17edb9e85d" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-31T08:28:12.625000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="197" />
+			<int key="@@case_index" value="44" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:37:59.122000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.1.x" />
+			<string key="after" value="Release Wootility v3.1.x" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="198" />
+			<int key="@@case_index" value="44" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59a7c9dfd638f33c1502052f" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-08-31T08:33:35.777000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="199" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-08-31T08:49:10.617000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="200" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-04T15:50:10.739000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="201" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-05T13:11:45.749000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="202" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:23:07.442000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="203" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-11-28T13:25:26.235000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="204" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:36:59.378000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="205" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-05-20T08:22:17.705000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="Bugs" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="206" />
+			<int key="@@case_index" value="45" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:28:18.967000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="207" />
+			<int key="@@case_index" value="45" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59ad769d497ae75fbb869603" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-09-04T15:51:57.307000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="208" />
+			<int key="@@case_index" value="46" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:37:49.386000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Under consideration (discussion welcome)" />
+			<int key="@@index" value="209" />
+			<int key="@@case_index" value="46" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-05-20T08:22:13.931000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="210" />
+			<int key="@@case_index" value="46" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59af8ad6d78422c222aa686c" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-09-06T05:42:46.746000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="211" />
+			<int key="@@case_index" value="47" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59b126415e0b874131737239" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-09-07T10:58:09.781000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="212" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-07T10:59:07.371000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="Next up" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="213" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-09-07T10:59:09.506000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="214" />
+			<int key="@@case_index" value="48" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-11T12:42:26.114000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.7" />
+			<string key="after" value="Release Wootility v1.0.7" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="215" />
+			<int key="@@case_index" value="48" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59cbac82a684069bde1e89c6" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-09-27T13:49:54.279000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="216" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-14T07:03:17.630000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Features" />
+			<int key="@@index" value="217" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-24T08:15:03.884000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="218" />
+			<int key="@@case_index" value="49" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-04-05T09:15:44.867000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="after" value="Release Wootility V2.3.3 Firmware V1.16" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="219" />
+			<int key="@@case_index" value="49" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59cbaf7c50a875af3bff7ac0" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-09-27T14:02:36.489000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="220" />
+			<int key="@@case_index" value="50" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59de11e5d201fc1bde174ea0" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-10-11T12:43:17.183000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v1.0.8" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="221" />
+			<int key="@@case_index" value="51" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59de123b80f0abbfcbd8c268" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-10-11T12:44:43.771000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="222" />
+			<int key="@@case_index" value="52" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-10-26T07:13:16.792000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.0.3 Firmware V1.11" />
+			<string key="after" value="Release Wootility v2.0.3 Firmware V1.11" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="223" />
+			<int key="@@case_index" value="52" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59ee18a74e4cb75e221ab9b3" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-10-23T16:28:23.584000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="224" />
+			<int key="@@case_index" value="53" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="59eed7405c4d0e9911d26793" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-10-24T06:01:36.365000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="225" />
+			<int key="@@case_index" value="54" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-05T09:26:56.304000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="226" />
+			<int key="@@case_index" value="54" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5a1d5eaf00cec8db361d2f8f" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-11-28T13:03:43.123000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.0.3" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="227" />
+			<int key="@@case_index" value="55" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5a1d6478c4b0a37e8719ce26" />
+		<event>
+			<string key="org:resource" value="50a39dabd04f93730400e719" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-11-28T13:28:24.527000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="228" />
+			<int key="@@case_index" value="56" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-12-15T05:20:39.484000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="229" />
+			<int key="@@case_index" value="56" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-12-19T16:04:42.960000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.1.0" />
+			<string key="after" value="Release Wootility v2.1.0" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="230" />
+			<int key="@@case_index" value="56" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5a1d67d074fa5e7eea9bd4ae" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2017-11-28T13:42:40.470000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Next up" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="231" />
+			<int key="@@case_index" value="57" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-12-15T05:20:41.466000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="Next up" />
+			<int key="@@index" value="232" />
+			<int key="@@case_index" value="57" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2017-12-19T16:04:43.859000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.1.0" />
+			<string key="after" value="Release Wootility v2.1.0" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="233" />
+			<int key="@@case_index" value="57" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5a7186a5e357f5bc7394af68" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-01-31T09:04:37.930000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="234" />
+			<int key="@@case_index" value="58" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-06T14:29:01.980000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="In public beta" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="235" />
+			<int key="@@case_index" value="58" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-02-16T10:23:09.735000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<string key="after" value="Release Wootility v2.2.0 Firmware v1.13" />
+			<string key="before" value="In public beta" />
+			<int key="@@index" value="236" />
+			<int key="@@case_index" value="58" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5b0f76525ffc87f102fc6321" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-05-31T04:13:06.609000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="237" />
+			<int key="@@case_index" value="59" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-07-19T11:40:19.458000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.4.0 Firmware V1.19" />
+			<string key="after" value="Release Wootility v2.4.0 Firmware V1.19" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="238" />
+			<int key="@@case_index" value="59" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5b0f765c25a3eb9144a9f089" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-05-31T04:13:16.112000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="239" />
+			<int key="@@case_index" value="60" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-07-19T11:40:21.208000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.4.0 Firmware V1.19" />
+			<string key="after" value="Release Wootility v2.4.0 Firmware V1.19" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="240" />
+			<int key="@@case_index" value="60" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5b0f76892eff88a11e5536c7" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-05-31T04:14:01.178000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="241" />
+			<int key="@@case_index" value="61" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2018-05-31T04:14:04.929000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="Features" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="242" />
+			<int key="@@case_index" value="61" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5b7b2025883c956b129ee939" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-08-20T20:10:13.163000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="243" />
+			<int key="@@case_index" value="62" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2020-04-29T07:41:30.553000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Planned Features" />
+			<string key="after" value="Planned Features" />
+			<string key="before" value="Features under consideration (discussion welcome)" />
+			<int key="@@index" value="244" />
+			<int key="@@case_index" value="62" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:28:33.149000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.6.x Firmware V1.30.x" />
+			<string key="after" value="Release Wootility v3.6.x Firmware V1.30.x" />
+			<string key="before" value="Planned Features" />
+			<int key="@@index" value="245" />
+			<int key="@@case_index" value="62" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5b9e3cd495ccfe6b2e69fc67" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-09-16T11:21:56.088000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Under consideration (discussion welcome)" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="246" />
+			<int key="@@case_index" value="63" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:29:13.596000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.6.x Firmware V1.30.x" />
+			<string key="after" value="Release Wootility v3.6.x Firmware V1.30.x" />
+			<string key="before" value="Features under consideration (discussion welcome)" />
+			<int key="@@index" value="247" />
+			<int key="@@case_index" value="63" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5b9e48bf67927c2a99964757" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-09-16T12:12:47.607000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="248" />
+			<int key="@@case_index" value="64" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2020-04-29T07:42:18.982000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="249" />
+			<int key="@@case_index" value="64" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:27:47.874000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="250" />
+			<int key="@@case_index" value="64" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5bd9f7945829262fce059029" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2018-10-31T18:42:28.430000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In public beta" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="251" />
+			<int key="@@case_index" value="65" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:13:28.345000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="252" />
+			<int key="@@case_index" value="65" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74e71316172032630f77be" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:13:23.995000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v2.4.0 Firmware V1.19" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="253" />
+			<int key="@@case_index" value="66" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ebed5ab6c16834b57c7b" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:34:05.819000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.0.0" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="254" />
+			<int key="@@case_index" value="67" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:34:11.290000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="255" />
+			<int key="@@case_index" value="67" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ebed5ab6c16834b57c7c" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:34:05.930000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.0.0" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="256" />
+			<int key="@@case_index" value="68" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-26T07:34:18.637000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="257" />
+			<int key="@@case_index" value="68" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ecf657b59a05f1b56d37" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2019-02-26T07:38:30.400000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.0.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="258" />
+			<int key="@@case_index" value="69" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ed7e5404bb223a67d872" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:40:46.649000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="259" />
+			<int key="@@case_index" value="70" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:28:23.635000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="260" />
+			<int key="@@case_index" value="70" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ed9ad13f795f3d244fc7" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:41:14.877000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="261" />
+			<int key="@@case_index" value="71" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-18T05:12:18.980000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="262" />
+			<int key="@@case_index" value="71" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:55:11.137000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="after" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="263" />
+			<int key="@@case_index" value="71" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74edaa8ffca331b11aef2c" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:41:30.832000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="264" />
+			<int key="@@case_index" value="72" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-18T05:11:55.402000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="265" />
+			<int key="@@case_index" value="72" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:55:09.507000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="after" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="266" />
+			<int key="@@case_index" value="72" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74edc5ac94e23bbf982df3" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:41:57.489000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="267" />
+			<int key="@@case_index" value="73" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-18T05:11:57.829000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="268" />
+			<int key="@@case_index" value="73" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:55:12.864000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="after" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="269" />
+			<int key="@@case_index" value="73" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ede44184da0a35b5d949" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:42:28.485000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="270" />
+			<int key="@@case_index" value="74" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-05-20T08:23:03.222000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="after" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="271" />
+			<int key="@@case_index" value="74" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74edf5ba253f54d0d94b76" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:42:45.509000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="272" />
+			<int key="@@case_index" value="75" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-02-27T04:04:43.700000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="273" />
+			<int key="@@case_index" value="75" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-05T09:21:09.753000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.1.x" />
+			<string key="after" value="Release Wootility v3.1.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="274" />
+			<int key="@@case_index" value="75" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74ee21eb26a95e76bc53aa" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-02-26T07:43:29.945000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Bugs" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="275" />
+			<int key="@@case_index" value="76" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-03-18T05:12:00.384000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="In progress" />
+			<string key="before" value="Bugs" />
+			<int key="@@index" value="276" />
+			<int key="@@case_index" value="76" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:55:14.156000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="after" value="Release Wootility v3.2.x Firmware V1.23.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="277" />
+			<int key="@@case_index" value="76" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c74f053f5759b2644c28510" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2019-02-26T07:52:51.057000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.1.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="278" />
+			<int key="@@case_index" value="77" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5c7e3fcb1232e831ac645dc9" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2019-03-05T09:22:19.560000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Features" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="279" />
+			<int key="@@case_index" value="78" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5cac796b30ace38a6bbff338" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-04-09T10:52:27.258000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.1.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="280" />
+			<int key="@@case_index" value="79" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:52:37.243000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="281" />
+			<int key="@@case_index" value="79" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5cac796b30ace38a6bbff339" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-04-09T10:52:27.262000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.1.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="282" />
+			<int key="@@case_index" value="80" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:52:33.930000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="283" />
+			<int key="@@case_index" value="80" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5cac796b30ace38a6bbff33a" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-04-09T10:52:27.328000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.1.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="284" />
+			<int key="@@case_index" value="81" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-04-09T10:52:30.918000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="285" />
+			<int key="@@case_index" value="81" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5cb4170b5a33d86a80b98ef6" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:29:22.207000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="Features under consideration (discussion welcome)" />
+			<int key="@@index" value="286" />
+			<int key="@@case_index" value="82" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d3e4dfecb72062e1e08e6ce" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:29:28.665000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="before" value="Features under consideration (discussion welcome)" />
+			<int key="@@index" value="287" />
+			<int key="@@case_index" value="83" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d6739ddcb51cf4cd5469cd8" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-08-29T02:35:10.002000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="288" />
+			<int key="@@case_index" value="84" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:47:26.960000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="289" />
+			<int key="@@case_index" value="84" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d6739f05cb30c4d885ef8fe" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-08-29T02:35:28.962000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="290" />
+			<int key="@@case_index" value="85" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:47:28.488000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="291" />
+			<int key="@@case_index" value="85" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d673a090664914d4d1ea721" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-08-29T02:35:53.477000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="292" />
+			<int key="@@case_index" value="86" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:47:30.194000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="293" />
+			<int key="@@case_index" value="86" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d673a1a6fafe96bcf52ef3e" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-08-29T02:36:10.466000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="294" />
+			<int key="@@case_index" value="87" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-08-29T02:36:38.644000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="295" />
+			<int key="@@case_index" value="87" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d673a309dce8a14bbb2ceb5" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-08-29T02:36:32.287000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="In progress" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="296" />
+			<int key="@@case_index" value="88" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:47:31.895000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="before" value="In progress" />
+			<int key="@@index" value="297" />
+			<int key="@@case_index" value="88" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d85d55d8f36910c33166ee8" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:37.867000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="298" />
+			<int key="@@case_index" value="89" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:48.789000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="299" />
+			<int key="@@case_index" value="89" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d85d55d8f36910c33166ee9" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:37.988000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="300" />
+			<int key="@@case_index" value="90" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:49.030000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="301" />
+			<int key="@@case_index" value="90" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d85d55d8f36910c33166eea" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:37.918000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="302" />
+			<int key="@@case_index" value="91" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:48.921000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="303" />
+			<int key="@@case_index" value="91" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d85d55d8f36910c33166eeb" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:38.022000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="304" />
+			<int key="@@case_index" value="92" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:48.966000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="305" />
+			<int key="@@case_index" value="92" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d85d55d8f36910c33166eec" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:38.086000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="306" />
+			<int key="@@case_index" value="93" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:49.099000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="307" />
+			<int key="@@case_index" value="93" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5d85d55d8f36910c33166eed" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:38.118000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.3.x Firmware V1.26.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="308" />
+			<int key="@@case_index" value="94" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2019-09-21T07:46:49.141000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="309" />
+			<int key="@@case_index" value="94" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5ea93015a4d2e5740140d846" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="createCard" />
+			<date key="time:timestamp" value="2020-04-29T07:43:17.097000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.4.x Firmware V1.27.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="310" />
+			<int key="@@case_index" value="95" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="602a84d8250f2e79ccd92a41" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2021-02-15T14:27:37.133000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.5.x Firmware V1.29.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="311" />
+			<int key="@@case_index" value="96" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:27:41.769000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="312" />
+			<int key="@@case_index" value="96" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="602a84f9efb026396f3fa6be" />
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="copyCard" />
+			<date key="time:timestamp" value="2021-02-15T14:28:10.045000+00:00" />
+			<boolean key="closed" value="false" />
+			<string key="concept:name" value="Release Wootility v3.6.x Firmware V1.30.x" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="313" />
+			<int key="@@case_index" value="97" />
+		</event>
+		<event>
+			<string key="org:resource" value="559120614675793810d845e8" />
+			<string key="type" value="updateCard" />
+			<date key="time:timestamp" value="2021-02-15T14:28:15.522000+00:00" />
+			<boolean key="closed" value="true" />
+			<string key="concept:name" value="**Closed" />
+			<string key="after" value="" />
+			<string key="before" value="" />
+			<int key="@@index" value="314" />
+			<int key="@@case_index" value="97" />
+		</event>
+	</trace>
+</log>
