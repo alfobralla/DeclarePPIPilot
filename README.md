@@ -88,3 +88,5 @@ They support multiple providers (`openai`, `anthropic`, `lmstudio`) and save tim
 
 - `run_full_pipeline` now includes automatic generation of human-readable PPI definitions from `kpi_metric_str`.
 - Generated code execution includes safety checks before `exec`.
+
+[![DOI](https://zenodo.org/badge/1245498297.svg)](https://doi.org/10.5281/zenodo.20338703)
