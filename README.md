@@ -1,5 +1,7 @@
 # PPIDeclarePilotSandbox
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20338703.svg)](https://doi.org/10.5281/zenodo.20338703)
+
 Pipeline to:
 - mine DECLARE constraints from event logs,
 - generate KPI proposals with an LLM,
@@ -88,5 +90,3 @@ They support multiple providers (`openai`, `anthropic`, `lmstudio`) and save tim
 
 - `run_full_pipeline` now includes automatic generation of human-readable PPI definitions from `kpi_metric_str`.
 - Generated code execution includes safety checks before `exec`.
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20338703.svg)](https://doi.org/10.5281/zenodo.20338703)
